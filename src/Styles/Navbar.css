@@ -1,0 +1,16 @@
+.NavbarButton{
+     border: 0;
+     font-size: 30px;
+     margin-right: 1.1vw;
+     margin-top: 1.4vh;
+     margin-left:0.5vw;
+     color: #3466AA;
+     background-color: #3465aa00;
+     font-family: 'Courier New', Courier, monospace;
+     transition: 300ms;
+}
+
+
+.NavbarButton:hover{
+     border-bottom: 1px solid #3466AA;
+}

@@ -1,0 +1,40 @@
+.Projects{
+     margin-top: 10vh;
+}
+.ProjectsTitle {
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 40;
+     color: #3466AA;
+     font-size: 75px;
+     white-space: pre;
+     margin-top: 5px;
+     text-align: center;
+}
+
+.ProjectsGrid {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 30px;
+     margin-left: 24vw;
+     margin-right: 24vw;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .ProjectItem {
+     background-color: #82B7DC;
+     text-align: center;
+ }
+
+ .subHeadingPrimary {
+     padding-top: 0.8vh;
+     padding-bottom: 0.8vh;
+     font-family: "Cyber";
+     font-size: 1.5em;
+     background: #dbe2ef;
+ }
+
+ .ProjectDescription > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+ }
