@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  height: 100%;
 }
 
 .ForeFront {
@@ -44,9 +44,15 @@
 }
 
 .ThemeToggle{
-  float: right;
+  position: absolute;
   background: none;
+  top: 1vh;
+  right: 1vh;
   border: 0;
-  margin-top: 1vh;
-  margin-right: 1vh;
+  
+}
+@media (max-width: 640px) { 
+  .ThemeToggle{
+    background-size: 50px;
+  }
 }

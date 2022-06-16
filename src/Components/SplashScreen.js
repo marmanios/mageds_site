@@ -43,7 +43,6 @@ const SplashScreen = (props) => {
                <h1 className="SplashScreenText">{text}</h1>
                <button value={"AboutMe"} onClick={onClickHandler} className="SplashScreenButton">ABOUT ME</button>
                <button value={"MyProjects"} onClick={onClickHandler} className="SplashScreenButton">MY PROJECTS</button>
-               <button value={"ContactMe"} onClick={onClickHandler} className="SplashScreenButton">CONTACT ME</button>
                <button value={"Resume"} onClick={props.openResume} className="SplashScreenButton">RESUME</button>
           </div>
      )

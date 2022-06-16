@@ -14,3 +14,14 @@
 .NavbarButton:hover{
      border-bottom: 1px solid #3466AA;
 }
+
+@media (max-width: 1007px) {
+     .NavbarButton{
+          font-size: 30px;
+     }
+   }
+   @media (max-width: 640px) { 
+     .NavbarButton{
+          font-size: 15px;
+     }
+    }

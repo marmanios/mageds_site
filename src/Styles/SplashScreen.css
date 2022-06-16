@@ -33,7 +33,7 @@
 
 
 .SplashScreenButton, SplashScreenButton::after {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
      width: 380px;
      height: 86px;
      font-size: 36px;
@@ -123,3 +123,29 @@
 .Night{
   color: #fff;
 }
+
+@media (max-width: 1007px) {
+  .SplashScreenTextSmall{
+    font-size: 35px;
+  }
+  .SplashScreenText{
+    font-size: 50px;
+  }
+}
+@media (max-width: 640px) { 
+  .SplashScreenTextSmall{
+    font-size: 28px;
+  }
+  .SplashScreenText{
+    font-size: 40px;
+  }
+  .SplashScreenButton{
+    width: 300px;
+    height: 68px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 60px;
+    font-size: 28px;
+
+  }
+ }

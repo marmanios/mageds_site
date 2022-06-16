@@ -37,7 +37,7 @@ function App() {
     }
   }
 
-  useEffect(() => { document.body.style.background = theme === "Day" ? "#F1F1F1":'#000000' })
+  useEffect(() => { document.body.style.background = theme === "Day" ? "#F1F1F1" : '#000000' })
 
   return (
     <div className="App">
