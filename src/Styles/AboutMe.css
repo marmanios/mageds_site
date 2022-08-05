@@ -1,14 +1,15 @@
 .AboutMe {
      display: flex;
+     font-family: 'Courier New', Courier, monospace;
      flex-direction: column;
      align-items: center;
+     justify-content: center;
      width: 100%;
 }
 
 .AboutMeTitle {
      white-space: normal;
      word-wrap: break-word;
-     font-family: 'Courier New', Courier, monospace;
      font-weight: 40;
      color: #3466AA;
      font-size: 75px;
@@ -17,25 +18,22 @@
 }
 
 .AboutMeSubtitle {
-     font-family: 'Courier New', Courier, monospace;
      font-weight: 150;
      color: #3466AA;
      font-size: 35px;
      white-space: pre;
      margin-top: 5px;
+     margin-left: 20%;
      margin-bottom: 8px;
      font-weight: bold;
      align-self: flex-start;
-     margin-left: 10vw;
 }
 
 .AboutMeText {
-     align-self: flex-start;
-     font-family: 'Courier New', Courier, monospace;
+     align-self: center;
      width: 60%;
      line-height: 2;
      font-size: 18px;
-     margin-left: 10.2vw;
 }
 
 @media (max-width: 1500px) {

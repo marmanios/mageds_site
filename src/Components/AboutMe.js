@@ -37,7 +37,7 @@ const AboutMe = (props) => {
                {showPopup && <div className="Popup" style={popupStyle}>
                     Emailed Copied to Clipboard!
                </div>}
-               <h1 className="AboutMeTitle">Aspiring Software & FullStack Engineer</h1>
+               <h1 className="AboutMeTitle">Aspiring Software & FullStack Dev</h1>
 
                <h2 className="AboutMeSubtitle">My Story So Far...</h2>
                <p className="AboutMeText">
@@ -62,6 +62,8 @@ const AboutMe = (props) => {
                     My favorite music genres are Hip-hop, rap, and pop with my top artists including Postmalone, Justin Beiber, and Migos.
                     Also, i'm a big fan of Onepiece :)
                </p>
+
+               <h2 className="">Resume Available Upon Request</h2>
 
                <h2 className="AboutMeSubtitle">Contact Me</h2>
                <div className="LogoHolder">
