@@ -1,4 +1,4 @@
-import TwetterPic from "../Pictures/TwetterPic.png";
+import yelpcampPic from "../Pictures/yelpcampPic.png";
 import MUDPic from "../Pictures/MUDPic.png";
 import PRISMPic from "../Pictures/PRISMPic.jpg";
 import SitePic from "../Pictures/SitePic.png";
@@ -16,14 +16,12 @@ const ProjectsData = [
           </p>
      },
      {
-          projectName: "Twetter",
-          projectPicture: TwetterPic,
-          projectURL: "https://github.com/marmanios/Twetter",
+          projectName: "YelpCamp",
+          projectPicture: yelpcampPic,
+          projectURL: "https://github.com/marmanios/YelpCamp",
           projectText:
           <p>
-               An attempt at a twitter clone I made which allows the user to post, edit, and delete "Twets".
-               The app cam be run locally using Node.Js as long as you have Mongo active in another terminal.
-               The web app uses Node.JS, EJS, MongoDB, and was styled with CSS.
+               A campground sharing site for those passionate about camping to share, browse, and review campground locations around the world.
           </p>
      },
      {
